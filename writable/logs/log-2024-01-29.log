@@ -1,0 +1,52 @@
+ERROR - 2024-01-29 19:21:54 --> Table 'perpustakaan.petugas' doesn't exist
+CRITICAL - 2024-01-29 19:21:54 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\inventaris-jofinson\app\Controllers\Home.php(53): App\Models\M_model->getarray('petugas', Array)
+#1 C:\xampp\htdocs\inventaris-jofinson\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 C:\xampp\htdocs\inventaris-jofinson\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\inventaris-jofinson\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\inventaris-jofinson\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\inventaris-jofinson\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-01-29 21:07:15 --> Table 'perpustakaan.petugas' doesn't exist
+CRITICAL - 2024-01-29 21:07:15 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\inventaris-jofinson\app\Controllers\Home.php(53): App\Models\M_model->getarray('petugas', Array)
+#1 C:\xampp\htdocs\inventaris-jofinson\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 C:\xampp\htdocs\inventaris-jofinson\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\inventaris-jofinson\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\inventaris-jofinson\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\inventaris-jofinson\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2024-01-29 21:09:11 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\inventaris-jofinson\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\xampp\htdocs\inventaris-jofinson\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\inventaris-jofinson\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\inventaris-jofinson\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\inventaris-jofinson\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2024-01-29 23:13:00 --> Table 'perpustakaan.petugas' doesn't exist
+CRITICAL - 2024-01-29 23:13:00 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\inventaris-jofinson\app\Controllers\Home.php(53): App\Models\M_model->getarray('petugas', Array)
+#1 C:\xampp\htdocs\inventaris-jofinson\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 C:\xampp\htdocs\inventaris-jofinson\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\inventaris-jofinson\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\inventaris-jofinson\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\inventaris-jofinson\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-01-29 23:24:37 --> Table 'perpustakaan.petugas' doesn't exist
+CRITICAL - 2024-01-29 23:24:37 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\inventaris-jofinson\app\Controllers\Home.php(101): App\Models\M_model->tampilPegawaian('petugas', 'user', 'petugas.id_user...', 'tanggal_petugas')
+#1 C:\xampp\htdocs\inventaris-jofinson\system\CodeIgniter.php(832): App\Controllers\Home->pegawaian()
+#2 C:\xampp\htdocs\inventaris-jofinson\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\inventaris-jofinson\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\inventaris-jofinson\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\inventaris-jofinson\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2024-01-29 23:26:55 --> Table 'perpustakaan.petugas' doesn't exist
+CRITICAL - 2024-01-29 23:26:55 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\inventaris-jofinson\app\Controllers\Home.php(101): App\Models\M_model->tampilPegawaian('petugas', 'user', 'petugas.id_user...', 'tanggal_petugas')
+#1 C:\xampp\htdocs\inventaris-jofinson\system\CodeIgniter.php(832): App\Controllers\Home->pegawaian()
+#2 C:\xampp\htdocs\inventaris-jofinson\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\inventaris-jofinson\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\inventaris-jofinson\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\inventaris-jofinson\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
